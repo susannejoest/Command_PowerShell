@@ -1,0 +1,17 @@
+net use x: \\computer name\sharename /P:Yes
+net use x: /delete
+
+L-Shire corp: net use x: \\computer name\sharename /user username password
+
+net use M: \\DES80022.nycomed.local\fs10$\Shares\AA-Data-Legal-Transfer /P:Yes
+net use L: \\DES80021.nycomed.local\fs14$\Shares\DEKON23\Rechtsabteilung /P:Yes
+
+net use V: https://mytakeda.sharepoint.com/sites/EUCAN-Legal /P:Yes
+net use R: https://mytakeda.sharepoint.com/teams/Leg /P:Yes
+
+
+\\DES80021.nycomed.local\fs14$\Shares\DEKON23\Rechtsabteilung\Personal Folders Legal Staff\
+
+
+https://mytakeda.sharepoint.com/sites/Eucan-Legal
+

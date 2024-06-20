@@ -1,0 +1,22 @@
+fileid = 246668 file from tania only one page anymore
+
+ocr fetchcounter is null again after file upload since new fileinfo entry is created
+
+266222, 266292 is hebrew
+
+xcopy D:\OCR_Export_Result\Upload_Problem\
+
+for /r %i in (*) do echo %i
+
+for /r %%i in (*) do echo %%i
+in a bat
+
+for /r . %%g in (*.pdf) do echo %%g >> C:\temp\test.txt
+
+for /r [[D:]\OCR_Export_Result\Upload_Problem] %%g in (*.pdf) do echo %%~nxg do (copy D:\OCR_Export_Result\Upload\)
+
+xcopy /s /u /y /i /r /c "D:\OCR_Export_Input\TestDbToRestore\*.filetype" "D:\OCR_Export_Input\TestDbToRestore"
+
+D:\OCR_Export_Input\TestDbToRestore
+D:\OCR_Export_Result\Upload_Problem\fix
+

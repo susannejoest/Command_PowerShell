@@ -1,0 +1,27 @@
+USE 7zip for file paths too long - 
+SHIFT ENTF to permanently delete without recycle bin
+
+delete FILE
+Tap on the Windows-key, type cmd.exe and select the result to load the command prompt.
+Navigate to the folder that you want to delete (with all its files and subfolders). Use cd path, e.g. cd o:\backups\test\ to do so.
+The command DEL /F/Q/S *.* > NUL deletes all files in that folder structure, and omits the output which improves the process further.
+
+DELETE folder 
+CD D:\MIG_SHARE_BD\Alligator_Files_ID
+DEL /F/Q/S *.* > NUL
+
+RMDIR "\\des80040.nycomed.local\MIG_SHARE_BD\Alligator_Files_ID" /S /Q
+
+this fails if path too long
+rmdir Z:\ /s
+
+ROBOCOPY for long file paths
+IF possible do from Contiki server if files located there takes only seconds but a LONG time on laptop
+Create an empty folder, such as C:\TEMP\Temp\_TRASH
+takes quite a while but works (deletes file by file on cmd window)
+background option?
+
+Open a Command Prompt window.
+Type 
+robocopy C:\TEMP\Temp\_TRASH Z:\ /purge
+

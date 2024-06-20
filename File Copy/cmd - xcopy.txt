@@ -1,0 +1,45 @@
+xcopy = source fist, then destination
+
+FOR %f in ("M:\LOCs\*.*) DO IF NOT EXIST "Y:\" COPY "M:\LOCs\" "Y:\"
+
+/-U should copy only those that do not already exist.
+
+
+
+XCopy /-U E:\*.mp3 F:\music\ 
+
+/d newer than those already copied
+   /I    If in doubt always assume the destination is a folder
+         e.g. when the destination does not exist.
+xcopy /d /e M:\LOCs\Mauritius\ Y:\Mauritius\
+xcopy M:\LOCs\Mauritius\*.* Y:\Mauritius\*.*
+
+   /S    Copy folders and subfolders
+
+   /E    Copy folders and subfolders, including Empty folders.
+         can be used to modify /T.
+
+XCOPY C:\utils\* D:\Backup\utils /s /i
+
+Copy a folder:
+
+XCOPY C:\utils D:\Backup\utils /i
+
+Copy a folder including all subfolders.
+
+XCOPY C:\utils\* D:\Backup\utils /s /i
+
+xcopy M:\LOCs\* z:\ /D /S /I
+
+Z:\ (
+
+net use Z: https://mytakeda.sharepoint.com/teams/LegalCorporateDataSheet/LOC_Docs_StrictlyConfidential 
+
+net use Z: https://mytakeda.sharepoint.com@SSL/DavWWWRoot/teams/LegalCorporateDataSheet/LOC_Docs_StrictlyConfidential 
+
+copy c:\somefile.txt r:\somefile.txt
+
+XCOPY Y:\AlexMaechler_VideoMaterial\Public\Naomi_de_Roo_for_Alex.mp4 D:\AM /i /s
+
+
+

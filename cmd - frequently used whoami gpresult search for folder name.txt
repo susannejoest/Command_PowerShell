@@ -1,0 +1,14 @@
+whoami /user for SID
+gpupdate /force
+
+gpresult /Scope User /v (also shows safe list url like blueprint)
+gpresult /Scope Computer /v
+
+https://www.howtogeek.com/116184/how-to-see-which-group-policies-are-applied-to-your-pc-and-user-account/
+
+search for exact folder name (folders moved on L or M)
+dir name=Netherlands /AD /s
+
+get rid of thumbs
+del thumbs.db /a /s
+

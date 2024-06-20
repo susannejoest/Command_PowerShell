@@ -1,0 +1,34 @@
+O:
+cd Mig_FileShare\MATERIAL
+ren *.pdf1 *.pdf
+ren *.docx1 *.docx
+ren *.doc1 *.doc
+ren *.xlsx1 *.xlsx
+ren *.xltx1 *.xltx
+ren *.xls1 *.xls
+ren *.dot1 *.dot
+ren *.rtf1 *.rtf
+ren *.zip1 *.zip
+ren *.mpp1 *.mpp
+ren *.jpg1 *.jpg
+ren *.gif1 *.gif
+ren *.xml1 *.xml
+ren *.png1 *.png
+ren *.accdb1 *.accdb
+ren *.ics1 *.ics
+ren *.mdb1 *.mdb
+ren *.msg1 *.msg
+ren *.xlt1 *.xlt
+ren *.ContikiMS1 *.ContikiMS
+ren *.jpeg1 *.jpeg
+ren *.mht1 *.mht
+ren *.pptx1 *.pptx
+ren *.bmp1 *.bmp
+ren *.wdf1 *.wdf
+ren *.ppt1 *.ppt
+ren *.tif1 *.tif
+ren *.txt1 *.txt
+ren *.xlsm1 *.xlsm
+ren *.htm1 *.htm
+ren *.vcf1 *.vcf
+ren *.dwg1 *.dwg

@@ -1,0 +1,1 @@
+net use Z: \\atvie1nasuni.shire.corp.com /USER:corp\joest

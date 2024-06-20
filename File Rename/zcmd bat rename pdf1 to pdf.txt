@@ -1,0 +1,14 @@
+Step 1: procedure [dbo].[Takeda_FileDownload_Pdf1]
+
+
+lists directory contents
+dir D:\OCR_Export_Input 
+
+cmd window steps
+U:\>o:
+
+O:\>cd OCR_Export_Input
+
+O:\OCR_Export_Input>ren *.pdf1 *.pdf
+
+

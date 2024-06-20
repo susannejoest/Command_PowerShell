@@ -1,0 +1,8 @@
+cmd
+tracert -d DES80022.nycomed.local
+
+if ip is reached all is good, even if there are timeouts inbetween
+
+DES80022.nycomed.local
+10.150.27.129
+

@@ -1,0 +1,1 @@
+Dir | rename-item -newName { $_.name -replace 'Takeda Israel','T-IL'}

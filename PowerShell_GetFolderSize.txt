@@ -1,0 +1,12 @@
+Get-ChildItem "\\gbbgknasuni.corp.shire.com\euv02\Basingstoke\orgshare1\Orgshare-1\Legal\Company Secretariat" -Recurse -Force | Measure-Object -Property Length -Sum;
+
+
+Get-ChildItem "T:\Legal\Company Secretariat\" -Recurse -Force | Measure-Object -Property Length -Sum;
+
+
+size in bytes 
+
+\\gbbgknasuni.corp.shire.com\euv02\Basingstoke\orgshare1\Orgshare-1\Legal\Company Secretariat
+
+V_T_Takeda_ALL_TS_STD
+

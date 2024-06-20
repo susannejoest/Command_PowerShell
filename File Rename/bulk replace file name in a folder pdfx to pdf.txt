@@ -1,0 +1,22 @@
+Windows 10 can rename files, but not file extensions
+
+steps:
+open cmd
+
+change drive by typing drive letter e.g. d:
+navigate to path e.g. 
+
+dir \\nycomed.local\shares\AA-Data-Legal-Transfer\ECM_Ariba\Migration_Shared\Files_W01
+
+change file extension:
+when in folder, type 
+ren *.pdfx *.pdf
+
+
+POWERSHELL
+prefix file 
+dir | Rename-Item -NewName {"LegalChristmasDinner_" + $_.Name}
+
+use access db sharepoint
+
+C:\TEMP\LOC_CH
